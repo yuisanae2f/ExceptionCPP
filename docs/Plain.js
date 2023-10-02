@@ -37,8 +37,8 @@ strArr = [
 
     {
         id: "Plain()[0]",
-        ko: "해당 클래스의 선언자이다.",
-        en: "is the constructor of this class."
+        ko: `해당 <a href="https://yuisanae2f.github.io/YuiSanae2f/dictionary/class.html">클래스</a>의 <a href="./404.html?missing=dictionary/class/constructor">생성자</a>이다.`,
+        en: `is the <a href="./404.html?missing=dictionary/class/constructor">constructor</a> of this <a href="https://yuisanae2f.github.io/YuiSanae2f/dictionary/class.html">class</a>.`
     },
 
     {
@@ -51,6 +51,18 @@ strArr = [
         id: "what()[0]",
         ko: `<a href="#m_message">m_message</a>의 <a href="https://yuisanae2f.github.io/YuiSanae2f/dictionary/class/get">게터</a>이다.`,
         en: `is <a href="https://yuisanae2f.github.io/YuiSanae2f/dictionary/class/get">the getter</a> of the <a href="#m_message">m_message.</a>`
+    },
+
+    {
+        id: "what()[alg]",
+        ko: "영역",
+        en: "Regions"
+    },
+
+    {
+        id: "what()[alg].rtn[0]",
+        ko: `<a href="#m_message">m_message</a>의 값을 <a href="https://yuisanae2f.github.io/YuiSanae2f/dictionary/function#return">반환</a>합니다.`,
+        en: `<a href="https://yuisanae2f.github.io/YuiSanae2f/dictionary/function#return">returns</a> the value of <a href="#m_message">m_message</a>`
     },
 
     {
@@ -69,5 +81,16 @@ strArr = [
         id: "_url[0]",
         ko: "오류 메세지에 대한 자세한 설명이 있는 주소이다.",
         en: "is the hyperlink about this exception."
+    },
+
+    {
+        id: "url()[alg]",
+        ko: "영역", en: "Regions"
+    },
+
+    {
+        id: "url()[alg].rtn[0]",
+        ko: `<a href="#_url">_url</a>의 값을 <a href="https://yuisanae2f.github.io/YuiSanae2f/dictionary/function#return">반환</a>합니다.`,
+        en: `<a href="https://yuisanae2f.github.io/YuiSanae2f/dictionary/function#return">returns</a> the value of <a href="#_url">_url</a>`
     }
 ];
