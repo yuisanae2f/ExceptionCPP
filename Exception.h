@@ -1,6 +1,10 @@
 #pragma once
 #include <stdexcept>
 
+/// This header file...
+/// is written by yuisanae2f
+/// has document at https://yuisanae2f.github.io/ExceptionCPP/
+
 namespace yuisanae2f {
 	namespace ExceptionCPP {
         class Plain : public std::exception {
@@ -32,3 +36,5 @@ namespace yuisanae2f {
         };
 	}
 }
+
+// Copyright (c) 2023, Yui San ae2f
